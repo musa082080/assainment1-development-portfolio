@@ -7,13 +7,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
 body {
   font-family: "Spartan", sans-serif;
-  line-height: 25px;
+  line-height: 35px;
   font-size: 18px;
 }
 h1 {
   font-size: 50px;
   font-weight: 700;
   text-transform: capitalize;
+  margin-left: 30px;
+  margin-top: 30px;
 }
 p {
   margin: 25px 0;
@@ -23,6 +25,7 @@ h2 {
   font-size: 40px;
   font-weight: 600;
   text-transform: capitalize;
+  margin-top: 30px;
 }
 
 /* focused on area start here */
@@ -139,6 +142,115 @@ h2 {
 }
 
 /* develop global area end here */
+
+/* gallary area start */
+.gallary-area {
+  padding: 80px 0;
+}
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+.title {
+  text-align: center;
+  margin-bottom: 60px;
+}
+.title h4 {
+  text-transform: capitalize;
+  font-size: 40px;
+}
+
+.gallary {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.single-gallary {
+  flex-basis: 23%;
+  margin-bottom: 35px;
+}
+
+.single-gallary img {
+  border: 2px solid #ddd;
+  padding: 3px;
+  border-radius: 10px;
+}
+/* gallary area end */
+
+/* contact area start */
+.contact-area {
+  background-color: #f2f2f2;
+  padding: 80px 0;
+}
+
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.contact-form {
+  flex-basis: 60%;
+}
+
+.contact-address {
+  flex-basis: 35%;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+}
+.contact-form textarea {
+  height: 80px;
+}
+
+.contact-form input[type="submit"] {
+  background-color: tomato;
+  border: 0;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.contact-form input[type="submit"]:hover {
+  background-color: teal;
+}
+.single-contact {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.single-contact i {
+  background-color: tomato;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+
+.single-contact h4 {
+  text-transform: capitalize;
+  font-size: 22px;
+}
+
+.single-contact h4 span {
+  display: block;
+  font-size: 16px;
+  text-transform: lowercase;
+  font-weight: 400;
+}
+/* contact area end */
 
 /* footer area start here */
 .footer {
