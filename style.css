@@ -12,6 +12,7 @@ h1 {
 h2 {
   font-size: 40px;
 }
+/* focused on area start here */
 .header {
   border-left: 5px solid;
   border-image: linear-gradient(salmon, tomato);
@@ -36,12 +37,61 @@ p {
   text-align: justify;
   margin-right: 20px;
 }
+.padding-btm {
+  padding: 30px 0;
+}
 .link-btn {
   text-decoration: none;
   background-image: linear-gradient(salmon, tomato);
-  padding: 12px 35px;
+  padding: 12px 25px;
   margin: 20px 0;
   border-radius: 5px;
   color: #fff;
   font-weight: 700;
 }
+/* focused on area end here */
+
+/* mission area start here */
+
+.mission-area-main {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 80px;
+}
+.mission-area {
+  display: flex;
+}
+
+.mission-area-single-item {
+  padding: 50px 30px;
+  width: 570px;
+  margin-bottom: 30px;
+  margin-right: 30px;
+  border-radius: 15px;
+}
+.mission-area-single-item:last-child {
+  margin-right: 0;
+}
+
+.mission-area-single-item img {
+  width: 200px;
+}
+.mis-bg-color {
+  background-color: #edf5f6;
+}
+.vis-bg-color {
+  background-color: #ffeeee;
+}
+.goals-bg-color {
+  background-color: #fff4d5;
+}
+
+.mission-area-main h1 {
+  text-transform: capitalize;
+  text-align: center;
+  margin: 50px auto;
+  color: #130f3a;
+  font-weight: 700;
+  padding: 20px 0;
+}
+/* mission area start here */
