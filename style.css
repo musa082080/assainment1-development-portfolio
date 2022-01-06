@@ -1,23 +1,32 @@
+/* common area */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 @import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
 body {
-  margin: 0;
   font-family: "Spartan", sans-serif;
   line-height: 25px;
   font-size: 18px;
 }
 h1 {
   font-size: 50px;
-  margin-left: 30px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+p {
+  margin: 25px 0;
+  text-align: justify;
 }
 h2 {
   font-size: 40px;
+  font-weight: 600;
+  text-transform: capitalize;
 }
+
 /* focused on area start here */
-.header {
-  border-left: 5px solid;
-  border-image: linear-gradient(salmon, tomato);
-  border-image-slice: 1;
-}
+
 .orange-color {
   color: orange;
 }
@@ -25,18 +34,21 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 100px;
+}
+.header {
+  border-left: 5px solid;
+  border-image: linear-gradient(salmon, tomato);
+  border-image-slice: 1;
 }
 .half-width {
   width: 50%;
   padding-left: 10%;
 }
 .half-width img {
-  width: 65%;
+  width: 70%;
 }
-p {
-  text-align: justify;
-  margin-right: 20px;
-}
+
 .padding-btm {
   padding: 30px 0;
 }
@@ -56,7 +68,7 @@ p {
 .mission-area-main {
   margin-left: 5%;
   margin-right: 5%;
-  margin-bottom: 80px;
+  margin-bottom: 100px;
 }
 .mission-area {
   display: flex;
@@ -87,11 +99,43 @@ p {
 }
 
 .mission-area-main h1 {
-  text-transform: capitalize;
   text-align: center;
   margin: 50px auto;
   color: #130f3a;
-  font-weight: 700;
   padding: 20px 0;
 }
 /* mission area start here */
+
+/* develop area start here */
+
+.Develop-global-area-main {
+  background-image: url(images/shapes/dream-bg.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  margin-bottom: 100px;
+}
+.develop-global-area {
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+}
+.develop-global-area-img {
+  width: 40%;
+  margin-right: 50px;
+}
+.develop-global-area-img img {
+  width: 100%;
+}
+.develop-global-area-content {
+  padding: 60px 40px;
+  padding-right: 50px;
+  width: 60%;
+}
+.bg-img {
+  background-image: url(images/shapes/dream-bg.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  margin-bottom: 100px;
+}
+
+/* develop area end here */
