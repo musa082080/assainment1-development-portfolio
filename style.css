@@ -106,7 +106,7 @@ h2 {
 }
 /* mission area start here */
 
-/* develop area start here */
+/* develop global area start here */
 
 .Develop-global-area-main {
   background-image: url(images/shapes/dream-bg.png);
@@ -138,4 +138,22 @@ h2 {
   margin-bottom: 100px;
 }
 
-/* develop area end here */
+/* develop global area end here */
+
+/* footer area start here */
+.footer {
+  text-align: center;
+  padding: 30px;
+  background-color: #000;
+}
+.footer h2 {
+  color: #fff;
+  padding: 20px;
+}
+.red-color {
+  color: #e24646;
+}
+small {
+  color: #7c7777;
+}
+/* footer area end here */
