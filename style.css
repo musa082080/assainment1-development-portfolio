@@ -255,12 +255,12 @@ img {
 /* footer area start here */
 .footer {
   text-align: center;
-  padding: 20px;
+  padding: 15px;
   background-color: #000;
 }
 .footer h2 {
   color: #fff;
-  padding: 15px;
+  padding: 5px;
 }
 .red-color {
   color: #e24646;
